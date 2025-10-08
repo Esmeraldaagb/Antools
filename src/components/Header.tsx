@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Facebook, Instagram, Twitter, ChevronDown, Menu, X } from "lucide-react";
+import {  ChevronDown, Menu, X } from "lucide-react";
 import logo from "../assets/logo.png";
 
 export default function Header() {
