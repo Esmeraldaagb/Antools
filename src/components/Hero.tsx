@@ -22,13 +22,13 @@ export default function Hero() {
       <div className="grid md:grid-cols-2 gap-12 items-center relative z-10">
       
         <div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             Awesome tools for
             <br />
             Designer & Developer<span className="text-orange-500">.</span>
           </h1>
 
-          <p className="text-gray-400 mb-8 text-lg">
+          <p className="text-gray-400 mb-8 text-sm md:text-lg">
             Antools is a web collection of information on paid or
             <br className="hidden md:block" />
             free Design and Development tools
@@ -42,7 +42,7 @@ export default function Hero() {
               className="w-full bg-[#283036] border border-gray-700 rounded-2xl px-10 py-4 pr-24 text-gray-300 placeholder-white/38 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition"
             />
             <button
-              className="absolute w-[170px] right-2 top-1/2 -translate-y-1/2 bg-[#FF6E30] hover:from-orange-600 hover:to-orange-700 transition px-5 py-2 font-semibold rounded-lg font-medium text-lg whitespace-nowrap shadow-lg shadow-orange-500/30"
+              className="absolute md:w-[170px] right-2 top-1/2 -translate-y-1/2 bg-[#FF6E30] hover:from-orange-600 hover:to-orange-700 transition px-5 py-2 font-semibold rounded-lg font-medium text-lg whitespace-nowrap shadow-lg shadow-orange-500/30"
             >
               Search
             </button>

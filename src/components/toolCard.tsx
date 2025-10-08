@@ -46,13 +46,13 @@ export default function ToolCard({
             </div>
 
             <div>
-              <h3 className="font-bold text-xl text-white">{name}</h3>
-              <p className="text-gray-400 text-md">{type}</p>
+              <h3 className="font-bold text-md md:text-xl text-white">{name}</h3>
+              <p className="text-gray-400 text-sm md:text-md">{type}</p>
             </div>
           </div>
         </div>
 
-        <p className="text-gray-400 text-lg max-w-sm mb-6">{description}</p>
+        <p className="text-gray-400 text-md md:text-lg max-w-sm mb-6">{description}</p>
 
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 text-gray-400">
@@ -67,7 +67,7 @@ export default function ToolCard({
 
           <button
             className="
-              px-4 py-3 rounded-lg text-lg font-medium transition-all duration-300 w-[100px]
+              px-4 py-3 rounded-lg text-md md:text-lg font-medium transition-all duration-300 w-[80px] md:w-[100px]
               bg-transparent border border-transparent text-white/55
               group-hover:bg-gradient-to-r group-hover:from-[#FF6E30] group-hover:to-orange-600
               group-hover:text-white group-hover:shadow-lg group-hover:shadow-[#FF6E30]/30

@@ -57,7 +57,7 @@ export default function PopularTools() {
     <section className="container mx-auto px-4 py-16">
      
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-6xl font-bold mb-4 text-white/90">
+        <h2 className="text-2xl md:text-5xl font-bold mb-4 text-white/90">
           Most Popular Tools
         </h2>
         <p className="text-white/55 font-semibold">
