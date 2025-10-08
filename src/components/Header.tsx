@@ -6,7 +6,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="relative z-10 bg-[#1E252B] shadow-md">
+    <header className="relative z-10 bg-[#1E252B]">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <img src={logo} alt="Logo" className="h-8 w-auto" />
 
