@@ -1,9 +1,11 @@
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#1a1d29] via-[#1a1d29] to-[#0f1117] text-white">
+    <div className="min-h-screen bg-[#1E252B] text-white">
       <Header />
+      <Hero />
   
     </div>
   );
