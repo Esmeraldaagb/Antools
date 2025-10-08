@@ -50,9 +50,9 @@ export default function Hero() {
 
 
           <div className="flex gap-4">
-            <a href="#"><Facebook size={25} className="text-white/80 hover:text-white transition" /></a>
+            <a href="#"><Facebook size={25} className="text-white/80 hover:text-white transition fill-white/80" /></a>
             <a href="#"><Instagram size={25} className="text-white/80 hover:text-white transition" /></a>
-            <a href="#"><Twitter size={25} className="text-white/80 hover:text-white transition" /></a>
+            <a href="#"><Twitter size={25} className="text-white/80 hover:text-white transition fill-white/80" /></a>
           </div>
         </div>
 
